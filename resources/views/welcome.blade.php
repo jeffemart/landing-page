@@ -26,10 +26,10 @@
                         aria-expanded="false">
                     <span class="sr-only">Open menu</span>
 
-                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                         stroke-width="2" stroke="currentColor" aria-hidden="true">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
-                    </svg>
+{{--                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"--}}
+{{--                         stroke-width="2" stroke="currentColor" aria-hidden="true">--}}
+{{--                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>--}}
+{{--                    </svg>--}}
                 </button>
             </div>
             <nav class="hidden md:flex space-x-10">
@@ -40,13 +40,13 @@
                             aria-expanded="false">
                         <span>Solutions</span>
 
-                        <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500"
-                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                             aria-hidden="true">
-                            <path fill-rule="evenodd"
-                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                  clip-rule="evenodd"/>
-                        </svg>
+{{--                        <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500"--}}
+{{--                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"--}}
+{{--                             aria-hidden="true">--}}
+{{--                            <path fill-rule="evenodd"--}}
+{{--                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"--}}
+{{--                                  clip-rule="evenodd"/>--}}
+{{--                        </svg>--}}
                     </button>
                 </div>
 
@@ -58,13 +58,13 @@
                             class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                             aria-expanded="false">
                         <span>More</span>
-                        <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500"
-                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                             aria-hidden="true">
-                            <path fill-rule="evenodd"
-                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                  clip-rule="evenodd"/>
-                        </svg>
+{{--                        <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500"--}}
+{{--                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"--}}
+{{--                             aria-hidden="true">--}}
+{{--                            <path fill-rule="evenodd"--}}
+{{--                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"--}}
+{{--                                  clip-rule="evenodd"/>--}}
+{{--                        </svg>--}}
                     </button>
                 </div>
             </nav>
@@ -96,7 +96,7 @@
                         @if (Route::has('register'))
                             <a href="{{ route('register') }}"
                                class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700">
-                                Register </a>
+                                Registrar </a>
                         @endif
                     @endauth
                 </div>
@@ -215,19 +215,19 @@
 <div class="bg-gray-50">
     <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
         <h2 class="text-3xl font-extra-bold tracking-tight text-gray-900 sm:text-4xl">
-            <span class="block">Ready to dive in?</span>
-            <span class="block text-indigo-600">Start your free trial today.</span>
+            <span class="block">Pronto para mergulhar?</span>
+            <span class="block text-indigo-600">Comece sua Jornada hoje.</span>
         </h2>
         <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div class="inline-flex rounded-md shadow">
                 <a href="#"
                    class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
-                    Get started </a>
+                    Vamos Começar </a>
             </div>
             <div class="ml-3 inline-flex rounded-md shadow">
                 <a href="#"
                    class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
-                    Learn more </a>
+                    Leia mais </a>
             </div>
         </div>
     </div>
@@ -238,7 +238,7 @@
     <div class="md:grid md:grid-cols-3 md:gap-6">
         <div class="px-4 mt-5 md:col-span-1">
             <div class="px-4 sm:px-0">
-                <h3 class="text-lg font-medium leading-6 text-gray-900">Profile</h3>
+                <h3 class="text-lg font-medium leading-6 text-gray-900">Formulário</h3>
                 <p class="mt-1 text-sm text-gray-600">This information will be displayed publicly so be careful what you
                     share.</p>
             </div>
@@ -276,7 +276,7 @@
                     <div class="px-4 py-4 bg-white text-right sm:px-6">
                         <button type="submit"
                                 class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                            Save
+                            Enviar
                         </button>
                     </div>
                 </div>
